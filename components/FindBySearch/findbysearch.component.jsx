@@ -1,4 +1,5 @@
 import {Col, Container, Row} from "reactstrap";
+import FindBySearchForm from "./FindBySearchForm/findbysearchform.component";
 
 const styles = {
     heading: {
@@ -15,7 +16,7 @@ const FindBySearch = () => {
             </Col>
         </Row>
         <Row>
-
+            <FindBySearchForm/>
         </Row>
     </Container>
 }

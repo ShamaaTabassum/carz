@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.input-range__track--active,
+.input-range__slider {
+  background: red !important;
+  border-color: red !important;
+}

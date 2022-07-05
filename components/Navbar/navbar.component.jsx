@@ -56,7 +56,7 @@ const NavBar = () => {
     ];
 
     return (
-        <Navbar color="light" light expand="md" full>
+        <Navbar color="light" light expand="md" >
             <NavbarBrand>
                 <Image style={styles.navBrand.image} width={styles.navBrand.image.width} height={styles.navBrand.image.height} src={Logo}></Image>
             </NavbarBrand>

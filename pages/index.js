@@ -2,6 +2,8 @@ import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from "../components/Banner/banner.component";
 import FindBySearch from "../components/FindBySearch/findbysearch.component";
+import 'react-input-range/lib/css/index.css'
+import Stock from "../components/Stock/stock.component";
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
       </Head>
         <Banner/>
         <FindBySearch/>
+        <Stock/>
     </> 
   )
 }
