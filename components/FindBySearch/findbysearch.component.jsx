@@ -3,7 +3,7 @@ import FindBySearchForm from "./FindBySearchForm/findbysearchform.component";
 
 const styles = {
     heading: {
-        row: 'justify-content-md-center justify-content-center',
+        row: 'justify-content-md-center justify-content-center mt-xl-4',
         col: 'col-md-auto col-auto'
     }
 }

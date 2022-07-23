@@ -3,7 +3,7 @@ import InputRange from "react-input-range";
 
 const styles = {
     row: {
-        marginTop: '2vh'
+        marginTop: '2vh',
     }
 }
 const SendInquiryBtn = () => {
