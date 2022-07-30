@@ -18,7 +18,9 @@ const StockDisplay = () => {
                    </h5>
                </Col>
            </Row>
-           <ProductsDisplay activeTab = {activeTab === 1 ? 'in-stock' : 'sold'}/>
+           <div style={{padding: '30px 0px'}}>
+               <ProductsDisplay activeTab = {activeTab === 1 ? 'in-stock' : 'sold'}/>
+           </div>
        </Container>
     )
 }

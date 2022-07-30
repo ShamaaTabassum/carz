@@ -4,6 +4,9 @@ import Banner from "../components/Banner/banner.component";
 import FindBySearch from "../components/FindBySearch/findbysearch.component";
 import 'react-input-range/lib/css/index.css'
 import Stock from "../components/Stock/stock.component";
+import ExportInfoSection from "../components/ExportInfoSection/exportInfoSection.component";
+import PageFooter from "../components/PageFooter/PageFooter.component";
+import CompanyInfoSection from "../components/CompanyInfoSection/companyInfoSection.component";
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
         <Banner/>
         <FindBySearch/>
         <Stock/>
+        <ExportInfoSection/>
+        <CompanyInfoSection/>
+        <PageFooter/>
     </> 
   )
 }
