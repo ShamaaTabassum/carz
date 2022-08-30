@@ -3,17 +3,18 @@ import ContactInfo from "./ContactInfo/contactInfo.component";
 import NavLinks from "./NavLinks/navLinks.component";
 import Newsletter from "./Newsletter/newsletter.component";
 
+
 const CompanyInfoSection = () => {
     return (
-        <Container>
+        <Container className="mt-3">
             <Row>
-                <Col className='sec5'>
+                <Col lg={4} md={8}>
                     <ContactInfo/>
                 </Col>
-                <Col>
+                <Col lg={4} md={4}>
                     <NavLinks/>
                 </Col>
-                <Col>
+                <Col lg={4} md={12} className="borderstart">
                     <Newsletter/>
                 </Col>
             </Row>

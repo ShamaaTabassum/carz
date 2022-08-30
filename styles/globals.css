@@ -6,8 +6,10 @@
   --white: #ffffff;
   --black: #000000;
 }
+
 html,
 body {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -52,7 +54,7 @@ a {
   position: relative;
 }
 
-.box > span >img {
+.box>span>img {
   display: block;
   width: 100%;
   height: auto;
@@ -99,7 +101,7 @@ a {
 }
 
 .sec4>p:nth-child(3) {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .nav-items-link {
@@ -108,9 +110,10 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  border-left: 0.3rem solid var(--secondary-color);
-  border-right: 0.3rem solid var(--secondary-color);
-  padding: 2rem 0;
+  border-left: 0.15rem solid var(--secondary-color);
+  border-right: 0.15rem solid var(--secondary-color);
+  margin: 4rem 0;
+  padding: 1rem 0;
 }
 
 .nav-items-link>.row>.col {
@@ -119,9 +122,9 @@ a {
 
 .nav-items-link>.row>.col>a {
   color: var(--dark-grey);
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   text-decoration: none;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .nav-items-link>.row>.col>a:hover {
@@ -129,10 +132,60 @@ a {
   color: var(--black);
 }
 
+.news-letter {
+  padding-top: 13vh;
+  text-align: center;
+}
+
+.sec5-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
 .footer {
   background-color: var(--secondary-color);
   color: var(--white);
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   text-align: center;
+  padding: 1rem;
+}
+
+
+
+@media only screen and (max-width:58rem) {
+  .nav-items-link {
+    border-left: none;
+    border-right: none;
+  }
+
+  .news-letter {
+    padding-top: 10vh;
+    border-top: 1px solid var(--secondary-color);
+  }
+
+  .sec5-icons {
+    width: 25rem;
+    margin: auto;
+  }
+
+  .footer {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width:40rem) {
+  .sec5-icons {
+    width: 15rem;
+  }
+
+  .nav-items-link>.row>.col>a {
+    font-size: 1.4rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
 }
