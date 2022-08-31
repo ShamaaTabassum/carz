@@ -80,8 +80,12 @@ const Newsletter = () => {
         <Input placeholder="Email" style={{ borderRadius: "100px" }}></Input>
       </Row>
       <Row style={{ paddingTop: "20px" }}>{Flags}</Row>
-      <Row className="sec5-icons">
+      <Row className="w-full">
+        <Col>
+        <Row className="sec5-icons m-auto">
         {SocialMedia}
+        </Row>
+        </Col>
       </Row>
     </Container>
   );

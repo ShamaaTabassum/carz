@@ -14,7 +14,8 @@ const CompanyInfoSection = () => {
                 <Col lg={4} md={4}>
                     <NavLinks/>
                 </Col>
-                <Col lg={4} md={12} className="borderstart">
+                <Col lg={4} md={12} className="borderstart m-auto">
+
                     <Newsletter/>
                 </Col>
             </Row>

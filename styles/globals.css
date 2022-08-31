@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/bebas');
+
 :root {
   --primary-color: #b80000;
   --secondary-color: #a8a8a8;
@@ -133,7 +135,7 @@ a {
 }
 
 .news-letter {
-  padding-top: 13vh;
+  padding-top: 2vh;
   text-align: center;
 }
 
@@ -142,6 +144,36 @@ a {
   align-items: center;
   justify-content: center;
   padding: 20px 0;
+}
+
+.banner-overlay {
+  position: relative;
+}
+
+.banner-overlay-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: auto;
+}
+
+.about-us {
+  padding: 6rem 0;
+}
+
+.about-us>.row>.col {
+  padding: 6rem;
+}
+
+.who-we-are-h1 {
+  font-weight: 500;
+  font-family: 'Bebas', sans-serif;
 }
 
 .footer {
@@ -153,7 +185,11 @@ a {
   padding: 1rem;
 }
 
-
+@media only screen and (min-width: 120rem) and (max-width:162rem) {
+  .about-us-flags {
+    padding: 0 33rem;
+  }
+}
 
 @media only screen and (max-width:58rem) {
   .nav-items-link {
@@ -162,13 +198,27 @@ a {
   }
 
   .news-letter {
-    padding-top: 10vh;
+    padding-top: 5vh;
     border-top: 1px solid var(--secondary-color);
   }
 
   .sec5-icons {
-    width: 25rem;
+    width: 65%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sec4>p {
+    font-size: 1.6rem;
+  }
+
+  .about-us {
+    padding: 4rem 0;
+  }
+
+  .about-us>.row>.col {
+    padding: 3rem;
   }
 
   .footer {
@@ -177,12 +227,16 @@ a {
 }
 
 @media only screen and (max-width:40rem) {
-  .sec5-icons {
-    width: 15rem;
-  }
-
   .nav-items-link>.row>.col>a {
     font-size: 1.4rem;
+  }
+
+  .about-us {
+    padding: 2rem 0;
+  }
+
+  .about-us>.row>.col {
+    padding: 1rem;
   }
 
   .footer {

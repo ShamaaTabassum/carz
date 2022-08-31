@@ -40,7 +40,7 @@ const ContactInfo = () => {
     <Container style={{ padding: "4vh 0"}}>
       <Row>
         <Col>
-          <Image src={logo} width="300vw" height="110vh"></Image>
+          <Image src={logo} width="280vw" height="100vh"></Image>
         </Col>
       </Row>
       <Row className="justify-content-start align-items-center pt-3">{contactInfo}</Row>
