@@ -1,5 +1,14 @@
+import BannerOverlay from '../components/BannerOverlay/bannerOverlay.component';
+import FindBySearchVehicle from './../components/FindAVehicle/findBySearchVehicle.component';
+
+
 const FindVehicle = () => {
-    return <div>Find Vehicle</div>
+    return (
+        <>
+            <BannerOverlay pageName="Find a Vehicle" />
+            <FindBySearchVehicle />
+        </>
+    )
 }
 
 export default FindVehicle;

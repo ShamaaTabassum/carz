@@ -7,9 +7,9 @@ import Image from "next/image";
 const styles = {
     inquiryBtn: {
         button: {
-            margin:'0px 10px'
+            margin:'0px 10px',backgroundColor:"#b80000", 
         },
-        link: {color: 'white', textDecoration: 'none'}
+        link: {color: 'white',textDecoration: 'none'}
     },
     navBrand: {
         image: {
