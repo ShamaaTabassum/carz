@@ -9,12 +9,13 @@ export const styles = {
             col: 'col-md-auto col-auto'
         },
     container: {
-        padding: '0px 30px'
+        padding: '0px 30px',
+        zIndex:"0",
     }
 }
 
 const FindBySearchHome = () => {
-    return <Container fluid style={{padding: styles.container.padding}}>
+    return <Container fluid style={styles.container}>
         <FindBySearchText />
         <FindBySearchFrom1 />
         </Container>

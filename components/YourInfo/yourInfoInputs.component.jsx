@@ -1,5 +1,5 @@
 import React from 'react'
-import {Col, FormGroup, Input, Label, Row } from "reactstrap";
+import {Col, Input, Label, Row } from "reactstrap";
 import {styles} from "../FindBySearch/findBySearchInput.component"
 
 const YourInfoInputs = () => {

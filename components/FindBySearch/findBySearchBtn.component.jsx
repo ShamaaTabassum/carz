@@ -1,7 +1,7 @@
 import React from "react";
 import { Button} from "reactstrap";
 
-const FindBySearchBtn = () => {
+const FindBySearchBtn = ({text,click}) => {
   return (
     <Button
       style={{
@@ -9,8 +9,9 @@ const FindBySearchBtn = () => {
         marginBottom: "2rem",
         marginTop: "1rem",
       }}
+      onClick={click}
     >
-      Send Inquiry
+      {text}
     </Button>
   );
 };

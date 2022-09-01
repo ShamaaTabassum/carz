@@ -8,7 +8,7 @@ const FindVehicle = () => {
             <BannerOverlay pageName="Find a Vehicle" />
             <FindBySearchVehicle />
         </>
-    )
+    );
 }
 
 export default FindVehicle;

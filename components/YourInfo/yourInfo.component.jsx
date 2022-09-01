@@ -18,7 +18,7 @@ const YourInfo = () => {
               <YourInfoInputs />
               <YourInfoMessage message="Any Specific Message"></YourInfoMessage>
               <div style={{display:"flex",justifyContent:"center",margin:"3rem auto"}}>
-              <FindBySearchBtn />
+              <FindBySearchBtn text="Send Inquiry"/>
               </div>
             </FormGroup>
           </Col>
